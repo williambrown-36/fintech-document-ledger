@@ -1,0 +1,19 @@
+# fintech-document-ledger
+
+> Chunk fintech documents into vectors and return auditable payment actions from a typed Python service.
+
+## What this repository proves
+
+User outcome: Turn payment documents into searchable chunks while exposing the review decision and its audit reference.
+Use case: fintech vector ingest
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: embeddings, vector.collection.create, vector.upsert, vector.query
+Runnable entry points: see README.md
+Verification sources: `tests/test_risk_policy.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

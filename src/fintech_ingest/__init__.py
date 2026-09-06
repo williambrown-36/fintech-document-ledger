@@ -1,0 +1,1 @@
+"""Fintech document ingest service."""
