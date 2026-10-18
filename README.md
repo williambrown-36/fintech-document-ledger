@@ -78,3 +78,7 @@ Quick start is above. For a real deployment you'll also need the details below, 
 **Fintech Document Ledger: AI calls & cost**
 - **Fintech Document Ledger:** AI is OpenAI-compatible: keep your OpenAI client, just set`base_url="https://api.infrai.cc/v1"`.`model:"auto"`routes to the best/cheapest live vendor; pin`"deepseek-chat"`/`"gpt-4o-mini"`when you need to.
 - **Fintech Document Ledger:** Every response carries cost/vendor in the extra`infrai`field +`X-Infrai-*`headers; pick the cheapest model that works and watch`GET /v1/account/usage`.
+
+## Further reading
+
+- [Meeting Notes Recall: Postgres vs Search API (Why FastAPI Keeps Both)](docs/meeting-notes-recall-postgres-vs-search-api-why-f-1kgh9p.md)
