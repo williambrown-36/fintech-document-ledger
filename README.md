@@ -81,4 +81,5 @@ Quick start is above. For a real deployment you'll also need the details below, 
 
 ## Further reading
 
+- [Marketplace Podcast Indexing — 3 Steps to Transcribe, Chunk, Embed, and Search](docs/marketplace-podcast-indexing-3-steps-to-transcrib-1o87nm.md)
 - [Meeting Notes Recall: Postgres vs Search API (Why FastAPI Keeps Both)](docs/meeting-notes-recall-postgres-vs-search-api-why-f-1kgh9p.md)
